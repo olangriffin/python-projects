@@ -14,11 +14,20 @@ def greeting():
     print(f"Hello {name}")
 
 def choice():
-    x = input("Do you want to continue? (y/n) ")
-    if x == "y":
-        print("Ok we will continue")
-    elif x == "n":
-        exit()
+    print("Which program would you like to run?")
+    print("A")
+    print("B")
+    print("C")
+    print("D")
+    x = input("choose: ")
+    if x == "A":
+        print("You chose program A")
+    elif x == "B":
+        print("You chose program B")
+    elif x == "C":
+        print("You chose program C")
+    elif x == "D":
+        print("You chose program D")
     else:
         print("incorrect input. try again")
         choice()
