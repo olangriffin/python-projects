@@ -1,4 +1,4 @@
-# Python Projects 1.0
+# Python Project 1.0
 
 Here I have created a public repository for my first fully functional python project.
 
