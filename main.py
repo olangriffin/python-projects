@@ -23,7 +23,7 @@ def choice():
     x = input("choose: ")
     if x == "A" or "a":
         print("You chose program A")
-        A.hello()
+        hello()
     elif x == "B" or "b":
         print("You chose program B")
     elif x == "C" or "c":
