@@ -1,15 +1,15 @@
-Print("App 1)
+print("App 1")
 print()
-name = input("Name: ")
 
 def greeting():
+    name = input("Name: ")
     print(f"Hello {name}")
 
-def choice()
+def choice():
     x = input("Do you want to continue? (y/n) ")
-    if x == y:
+    if x == "y":
         print("Ok we will continue")
-    elif x == n:
+    elif x == "n":
         exit()
     else:
         print("incorrect input. try again")
