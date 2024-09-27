@@ -1,3 +1,4 @@
+from A import *
 title = """ ____            _           _     _   ___  
 |  _ \ _ __ ___ (_) ___  ___| |_  / | / _ \ 
 | |_) | '__/ _ \| |/ _ \/ __| __| | || | | |
@@ -22,6 +23,7 @@ def choice():
     x = input("choose: ")
     if x == "A" or "a":
         print("You chose program A")
+        A.hello()
     elif x == "B" or "b":
         print("You chose program B")
     elif x == "C" or "c":
