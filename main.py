@@ -20,13 +20,13 @@ def choice():
     print("C")
     print("D")
     x = input("choose: ")
-    if x == "A":
+    if x == "A" or "a":
         print("You chose program A")
-    elif x == "B":
+    elif x == "B" or "b":
         print("You chose program B")
-    elif x == "C":
+    elif x == "C" or "c":
         print("You chose program C")
-    elif x == "D":
+    elif x == "D" or "d":
         print("You chose program D")
     else:
         print("incorrect input. try again")
