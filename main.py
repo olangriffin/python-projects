@@ -1,4 +1,4 @@
-from A import *
+from programs import *
 title = """ ____            _           _     _   ___  
 |  _ \ _ __ ___ (_) ___  ___| |_  / | / _ \ 
 | |_) | '__/ _ \| |/ _ \/ __| __| | || | | |
@@ -23,13 +23,16 @@ def choice():
     x = input("choose: ")
     if x == "A" or "a":
         print("You chose program A")
-        hello()
+        A()
     elif x == "B" or "b":
         print("You chose program B")
+        B()
     elif x == "C" or "c":
         print("You chose program C")
+        C()
     elif x == "D" or "d":
         print("You chose program D")
+        D()
     else:
         print("incorrect input. try again")
         choice()
