@@ -1,13 +1,11 @@
-def A():
-  print("We have now started running program A")
+def program_A():
+    print("program A will now begin")
 
-def B():
-  print("We have now started running program B")
+def program_B():
+    print("program B will now begin")
 
-def C():
-  print("We have now started running program C")
+def program_C():
+    print("program C will now begin")
 
-def D():
-  print("We have now started running program D")
-
-
+def program_D():
+    print("program D will now begin")
