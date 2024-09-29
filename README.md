@@ -4,6 +4,6 @@ Here I have created a public repository for my first fully functional python pro
 
 I will work on and develop this projects over time.
 
-I have commited my first file to this repository named main.py
-
 This application will be able to run using a desktop shortcut
+
+This python file will integrate different programs w
